@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+   <meta charset="ISO-8859-1"></meta>
+   <title>Formulaire</title>
+   <link rel="stylesheet" href="/style.css"/>
+ </head>
+ <body>
+   <h1>Formulaire d'inscription</h1>
+   <form class="" action="/joueur/createJoueur" method="post">
+     <div class="checbox">
+       <label for=""><strong>Femme</strong></label>
+       <input type="radio" name="" value="Femme"></input>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <label for=""><strong>Homme</strong></label>
+       <input type="radio" name="" value="Homme"></input>
+     </div><br></br>
+     <table>
+       <tr>
+         <th> <strong>Nom <span> * </span></strong> </th>
+         <td> <input type="text" name="nom" value=""></input> </td>
+       </tr>
+       <tr>
+         <th> <strong>Prenom <span> * </span></strong> </th>
+         <td> <input type="text" name="prenom" value=""></input> </td>
+       </tr>
+       <tr>
+         <th> <strong>Age <span> * </span></strong> </th>
+         <td> <input type="number" name="age" value=""></input> </td>
+       </tr>
+       <tr>
+         <th> <strong>E-mail <span> * </span></strong> </th>
+         <td> <input type="email" name="email" value=""></input> </td>
+       </tr>
+       <tr>
+         <th> <strong>Mot de passe <span> * </span></strong> </th>
+         <td> <input type="password" name="mdp" value=""></input> </td>
+       </tr>
+       <tr>
+         <th> <strong>Confirmation mot de passe <span> * </span></strong> </th>
+         <td> <input type="password" name="mdpVerif" value=""></input></td>
+       </tr>
+     </table>
+     <div class="obligatoire">
+
+       <p> <span> <strong>*</strong> </span> <strong> Champs Obligatoire</strong></p>
+     </div>
+     <div class="buttons">
+       <button class="retoure" type="submit" name="button"><a href="index.html">Retour</a></button>
+       <button class="valider" type="submit" name="button"><a href="fenetre.html">Valider</a></button>
+     </div>
+   </form>
+   <script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script src="file1.js"></script>
+ </body>
+ 
+</html>
+ 

@@ -1,0 +1,61 @@
+body{
+ margin: 1.5em;
+}
+h1{
+ font-size: 2.5em;
+ text-align: center;
+ color: rgba(200, 100, 100, 0.2);
+}
+form{
+ border: 2px solid #eee;
+ border-radius: 10px;
+ padding:2em;
+ margin: 0 14em;
+ background: #ccff33;
+}
+.checbox{
+ text-align: center;
+ font-size: 1.5em;
+}
+
+th{
+ text-align: right;
+ font-size: 1.1em;
+ padding: 1em;
+}
+table input{
+ width: 200%;
+ height: 2em;
+ border: 2px solid #000;
+ margin-bottom: 0.5em;
+ border-radius: 5px;
+}
+span{
+ color: red;
+}
+p{
+ margin-left: 3em;
+ font-size: 1em;
+ font-style: italic;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    margin: 2em;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: #3498db;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin: 3em;
+    color: #fff;
+
+    font-size: 1.8em;
+}
+button:hover{
+    background: #0000cc;
+    box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
