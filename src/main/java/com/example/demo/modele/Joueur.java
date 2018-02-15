@@ -13,7 +13,7 @@ public class Joueur {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private Long id;
+	private int id;
 	private String nom;
 	private String prenom;
 	private String email;
@@ -43,11 +43,11 @@ public class Joueur {
 	}
 
 	// Getters et Setters
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 

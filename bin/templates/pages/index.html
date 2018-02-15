@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="ISO-8859-1"></meta>
+        <title>Pictionary</title>
+        <link rel="stylesheet" href="/main.css"/>
+    </head>
+    <body>
+        <div class="corp">
+            <header>
+         <img src="/pictionary.jpg" alt=""></img>
+          </header>
+            <section>
+                <form class="" action="/joueur/connexionJoueur" method="post">
+                    <div class="email">
+                        <label for="Enter Votre e-mail"> <strong>Email <span>*</span></strong></label>
+                        <input type="email" name="email" value=""></input>
+                    </div><br></br>
+                    <div class="MDP">
+                        <label for=""> <strong>Mot de Passe</strong> <span>*</span> </label>
+                        <input type="password" name="mdp" value=""></input>
+                    </div>
+                  <div class="obligatoire">
+
+                        <p> <span> <strong>*</strong> </span> <strong> Champ Obligatoire</strong></p>
+                  </div>
+                    <div class="buttons">
+                        <button class="Inscrire" type="submit" name="button"><a href="/joueur/formulaireInscription">S'inscrire</a></button>
+                        <button class="Jouer" type="submit" name="button"><a href="https://www.w3schools.com">Jouer</a></button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+    </body>
+</html>
