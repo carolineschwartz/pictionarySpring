@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+ <head>
+  <meta charset="ISO-8859-1"></meta>
+   <title>Fenetre</title>
+   <link rel="stylesheet" href="/stylefenetre.css"></link>
+ </head>
+ <body>
+   <header>
+     <select name="typeJeux" form="carform" id="selecte">
+         <option value="cc">choisissez </option>
+         <option value="dessinateur">Dessinateur</option>
+         <option value="joueur2"><a href="http://localhost:8082/joueur/formulairefenetreJoueur2">Joueur 2 </a></option>
+    </select>
+   </header>
+   <section class="dessiner" name="">
+     <header class="header1">
+       <button type="button" name="button" class="btnMot">Mot</button>
+       <p class="mot"> </p>
+     </header>
+     <div class="corp">
+       <canvas id="canvas" width="800" height="400"></canvas>
+       <br></br>
 
-</body>
+       <div class="" width="400" height="200">
+            kjbkllllllllllllllll
+       </div>
+     </div>
+       <input id="colorDessin" type="color" value="black"></input>
+       <button type="button" name="button" class="supp">Effacer</button>
+     <footer>
+       <div class="">
+           <button type="button" name="button" class="commence">Commencer</button><br></br><br></br>
+           <button type="button" name="button" class="envoyer">Envoyer</button>
+           <input type="" name="" value=""  placeholder="Reponse" disabled="disabled" class="ReponseRecu"></input>
+           <span class="scoreP"> Score : </span>
+           <span class="score">0</span>
+           <span class="resultat"></span>
+       </div>
+       <p class="chrono">00 : 00</p>
+     </footer>
+   </section>
+
+  
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script src="/scriptfenetre.js">
+
+   </script>
+ </body>
 </html>

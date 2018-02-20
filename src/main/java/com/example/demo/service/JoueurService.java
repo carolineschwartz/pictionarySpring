@@ -19,13 +19,13 @@ public class JoueurService {
 	        return (List<Joueur>) this.joueurDao.findAll();
 	    }
 
-	    public Joueur findByIdJoueur(int id){
-	        return this.joueurDao.findOne((long) id);
+	    public Joueur findByIdJoueur(long id){
+	        return this.joueurDao.findOne(id);
 	    }
 
 
-	    public void removeByIdJoueur(int id) {
-	        this.joueurDao.delete((long) id);
+	    public void removeByIdJoueur(long id) {
+	        this.joueurDao.delete(id);
 	    } 
 
 
@@ -33,12 +33,9 @@ public class JoueurService {
 	        this.joueurDao.save(joueur);
 	    }
 	    
-	    /*
-	         public void updateJoueur(Joueur joueur){
-	        this.joueurDao.update(joueur);
-	    }
-	    
-	    */
+	    public Joueur findJoueurByEmail(String email) {
+	    	return this.joueurDao.findOneByEmail(email);
+	    }	    
 	     
 }
 

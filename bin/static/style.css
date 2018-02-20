@@ -46,14 +46,17 @@ button{
     border: 1px solid #000;
     border-radius: 5px;
     background: #3498db;
-}
-a{
-    text-decoration: none;
+ 
     color: #000;
     margin: 3em;
     color: #fff;
 
     font-size: 1.8em;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
 }
 button:hover{
     background: #0000cc;

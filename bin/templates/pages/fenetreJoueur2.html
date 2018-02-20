@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+ <head>
+  <meta charset="ISO-8859-1"></meta>
+   <title>Fenetre</title>
+   <link rel="stylesheet" href="/stylefenetre.css"></link>
+ </head>
+ <body>
+ <header>
+     <select name="typeJeux" form="carform" id="selecte">
+         <option value="cc">choisissez </option>
+         <option value="dessinateur">Dessinateur</option>
+         <option value="joueur2"><a href="http://localhost:8082/joueur/formulairefenetreJoueur2">Joueur 2 </a></option>
+    </select>
+   </header>
+ <section class="deviner" name="">
+     <h1>Joueur 2</h1>
+     <div class="image" >
+       <img class="Myimage" src="" alt=""></img>
+     </div>
+     <div class="reponse">
+       <input type="text" name="" value="" class= "rep"></input>
+       <input type="submit" name="" value="Envoyer" class="sendRep"></input>
+     </div>
+
+   </section>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+   <script src="/scriptjoueur2.js">
+
+   </script>
+ </body>
+</html>

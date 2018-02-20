@@ -7,7 +7,7 @@ import com.example.demo.modele.Joueur;
 
 public interface JoueurDaoCrudRepo extends CrudRepository<Joueur, Long>{
 
-	//void update(Joueur joueur);
+	public Joueur findOneByEmail(String email);
 
 }
 

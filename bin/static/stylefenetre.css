@@ -1,0 +1,151 @@
+body{
+margin: 1em;
+background: #A9A9A9;
+}
+select{
+ width: 80%;
+ font-size: 1.2em;
+ font-weight: bold;
+ margin: 1em;
+ height: 2em;
+ border: 2px solid #708090;
+ border-radius: 10px;
+}
+.dessiner{
+ margin-left: 1em;
+}
+.header1{
+
+ display: flex;
+ flex-direction: row;
+
+ align-items: center;
+}
+.header1 button, footer button{
+ width: 15em;
+ height: 2.5em;
+ border-radius: 10px;
+ border: 2px solid #708090;
+ background: #677cff;
+ font-size: 1.2em;
+ font-weight: bold;
+}
+.header1 p{
+ width: 48em;
+ height: 2em;
+ border-radius: 10px;
+ border: 2px solid #708090;
+ text-align: center;
+ padding-top: 1em;
+ margin-left: 1em;
+ background: #F5F5F5;
+}
+.corp{
+ display: flex;
+ flex-direction: row;
+}
+.corp canvas{
+ border: 1px solid #000;
+ background: #fff;
+ border-radius: 10px;
+}
+.corp div{
+ border: 1px solid #000;
+ margin-left: 1em;
+ background:#FFFFE0;
+ border-radius: 10px;
+}
+footer{
+margin-top: 2em;
+display: flex;
+flex-direction: row;
+}
+
+footer p{
+ width: 10em;
+ height: 1.3em;
+ border-radius: 10px;
+ border: 2px solid #708090;
+ text-align: center;
+ padding-top: 0.3em;
+ margin-left: 1em;
+ background: #F5F5F5;
+ font-size: 1.8em;
+ font-weight: bold;
+ margin-top: -2px;
+}
+.chrono{
+ margin-left: -250px;
+}
+.header1 button:hover,
+footer button:hover
+{
+ color: #fff;
+ background: #0000CD;
+ box-shadow: box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+span.scoreP{
+ margin-left:3.4em;
+ margin-top: 1em;
+}
+
+.ReponseRecu{
+ height: 2.9em;
+ width: 20em;
+
+ margin-left: 3.3em;
+ border: 2px solid #000;
+ border-radius: 10px;
+}
+
+.scoreP{
+ font-size: 1.8em;
+ font-weight: bold;
+}
+.score{
+padding:0 2.5em;
+border: 2px solid #000;
+border-radius: 10px;
+background: #fff;
+}
+
+
+h1{
+margin-left: 15em;
+font-size: 2em;
+font-style: italic;
+color:     #ff0000;
+
+}
+.image{
+ background: #fff;
+ width:800px;
+ height: 400px;
+ margin-left: 9em;
+ border-radius: 10px;
+ text-align: center;
+}
+.reponse{
+ margin-left: 9em;
+ margin-top: 1em;
+
+
+}
+input[type="text"]{
+ height: 2.2em;
+ width: 50em;
+ font-weight: bold;
+ border: 2px solid #000;
+ border-radius: 10px;
+}
+input[type="submit"]{
+ height: 2.3em;
+ width: 9em;
+
+ font-weight: bold;
+ border: 2px solid #000;
+ border-radius: 5px;
+}
+
+
